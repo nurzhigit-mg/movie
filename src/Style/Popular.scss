@@ -1,0 +1,71 @@
+#popular {
+  padding: 100px 0;
+  background: #0d1b2a;
+  display: flex;
+  flex-direction: column;
+  button{
+    margin: 0 10px;
+    padding: 7px 17px;
+    background: black;
+    color: #495057;
+    font-size: 15px;
+    border-radius: 4px;
+    &:hover{
+      padding: 7px 17px;
+      background: black;
+      color: dodgerblue;
+    };
+  }
+  h1{
+    margin: 0 10px;
+    padding: 7px 17px;
+    background: black;
+    color: #495057;
+    font-size: 15px;
+    border-radius: 4px;
+    &:hover {
+      padding: 7px 17px;
+      background: black;
+      color: dodgerblue;
+    }
+  }
+  .popular {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7rem;
+
+    &--card {
+      width: 18%;
+      text-align: center;
+
+      img {
+        width: 100%;
+        border-radius: 3px;
+      }
+
+      h3 {
+        color: #d8f3dc;
+        padding: 5px 0;
+        font-weight: 300;
+      }
+
+      &__block {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        h2 {
+          color: gold;
+          padding: 5px 0;
+          font-weight: 200;
+        }
+
+        h4 {
+          color: gray;
+          padding: 5px 0;
+          font-weight: 200;
+        }
+      }
+    }
+  }
+}

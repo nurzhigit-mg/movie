@@ -1,0 +1,27 @@
+#actor {
+  padding: 100px 0;
+  background: #0d1b2a;
+  .actor {
+    display: flex;
+    justify-content: space-between;
+    &--block {
+
+      width: 65%;
+      &__card{
+        display: flex;
+        padding: 30px 0 30px 0;
+        &--name{
+          h4{
+            font-size: 16px;
+          }
+          padding: 0 45px 0 0;
+        }
+        &--details{
+          h4{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

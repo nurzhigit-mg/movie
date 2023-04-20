@@ -1,0 +1,17 @@
+#video {
+  background: #0d1b2a;
+  padding: 40px 0;
+h1{
+  color: #d8f3dc;
+}
+  .video {
+    display: flex;
+    align-items: start;
+    overflow-x: auto;
+    &--card {
+      padding: 20px 10px;
+
+
+    }
+  }
+}

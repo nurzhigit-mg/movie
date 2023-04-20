@@ -1,0 +1,29 @@
+@import "src/Style/Header";
+@import "src/Style/Footer";
+@import "src/Style/Home";
+@import "src/Style/Popular";
+@import "src/Style/topRadet";
+@import "src/Style/MovieDetails";
+@import "src/Style/ActorsCArd";
+@import "src/Style/ActorsDetails";
+@import "src/Style/Videos";
+@import "src/Style/ActorsFilm";
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+button{
+  border: none;
+  cursor: pointer;
+
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}

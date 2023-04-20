@@ -1,0 +1,13 @@
+#films {
+  .films {
+    display: flex;
+    align-items: start;
+    overflow-x: auto;
+    &--card {
+text-align: center;
+      img {
+        padding: 15px 20px;
+      }
+    }
+  }
+}

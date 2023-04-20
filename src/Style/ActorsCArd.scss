@@ -1,0 +1,30 @@
+#actors {
+  background: #0d1b2a;
+  padding: 40px 0;
+
+  h1 {
+    color: #d8f3dc;
+  }
+
+  .actors {
+    display: flex;
+    align-items: start;
+    overflow-x: auto;
+
+    &--card {
+      margin: 20px 20px 10px 0;
+
+      h4 {
+        color: #d8f3dc;
+        font-size: 17px;
+        font-weight: 400;
+      }
+
+      h5 {
+        font-size: 14px;
+        font-weight: 300;
+        color: #d8f3dc;
+      }
+    }
+  }
+}
